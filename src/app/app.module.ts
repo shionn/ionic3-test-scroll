@@ -1,21 +1,25 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { ErrorHandler, NgModule } from '@angular/core';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import {BrowserModule} from '@angular/platform-browser';
+import {ErrorHandler, NgModule} from '@angular/core';
+import {IonicApp, IonicErrorHandler, IonicModule} from 'ionic-angular';
 
-import { MyApp } from './app.component';
-import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
+import {MyApp} from './app.component';
+import {HomePage} from '../pages/home/home';
+import {ListPage} from '../pages/list/list';
 
-import { StatusBar } from '@ionic-native/status-bar';
-import { SplashScreen } from '@ionic-native/splash-screen';
+import {StatusBar} from '@ionic-native/status-bar';
+import {SplashScreen} from '@ionic-native/splash-screen';
 import {CardsPage} from "../pages/cards/cards";
+import {Cards50Page} from "../pages/cards50/cards50";
+import {Cards100Page} from "../pages/cards100/cards100";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ListPage,
-    CardsPage
+    CardsPage,
+    Cards50Page,
+    Cards100Page
   ],
   imports: [
     BrowserModule,
@@ -26,7 +30,9 @@ import {CardsPage} from "../pages/cards/cards";
     MyApp,
     HomePage,
     ListPage,
-    CardsPage
+    CardsPage,
+    Cards50Page,
+    Cards100Page
   ],
   providers: [
     StatusBar,
@@ -34,4 +40,5 @@ import {CardsPage} from "../pages/cards/cards";
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
-export class AppModule {}
+export class AppModule {
+}
