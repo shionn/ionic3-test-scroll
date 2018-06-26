@@ -8,6 +8,8 @@ import { ListPage } from '../pages/list/list';
 import {CardsPage} from "../pages/cards/cards";
 import {Cards50Page} from "../pages/cards50/cards50";
 import {Cards100Page} from "../pages/cards100/cards100";
+import {Cards200Page} from "../pages/cards200/cards200";
+import {Cards300Page} from "../pages/cards300/cards300";
 
 @Component({
   templateUrl: 'app.html'
@@ -28,7 +30,9 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: "Cards 50", component: Cards50Page},
       { title: "Cards 100", component: Cards100Page},
-      { title: "Cards 1000", component: CardsPage}
+      { title: "Cards 200", component: Cards200Page},
+      { title: "Cards 300", component: Cards300Page},
+      { title: "Cards 500", component: CardsPage}
     ];
 
   }
