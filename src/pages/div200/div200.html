@@ -1,0 +1,26 @@
+<!--
+  Generated template for the Div200Page page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>div200</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div *ngFor="let card of cards" >
+    <h1>{{card.name}}</h1>
+    <h2>{{card.content}}</h2>
+  </div>
+
+</ion-content>

@@ -13,6 +13,7 @@ import {Cards50Page} from "../pages/cards50/cards50";
 import {Cards100Page} from "../pages/cards100/cards100";
 import {Cards200Page} from "../pages/cards200/cards200";
 import {Cards300Page} from "../pages/cards300/cards300";
+import {Div200Page} from "../pages/div200/div200";
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import {Cards300Page} from "../pages/cards300/cards300";
     Cards50Page,
     Cards100Page,
     Cards200Page,
-   Cards300Page
+   Cards300Page,
+    Div200Page
   ],
   imports: [
     BrowserModule,
@@ -38,7 +40,8 @@ import {Cards300Page} from "../pages/cards300/cards300";
     Cards50Page,
     Cards100Page,
     Cards200Page,
-    Cards300Page
+    Cards300Page,
+    Div200Page
   ],
   providers: [
     StatusBar,
