@@ -17,6 +17,7 @@ import {Div200Page} from "../pages/div200/div200";
 import {Cards200JsScrollPage} from "../pages/cards200-js-scroll/cards200-js-scroll";
 import {Cards500JsScrollPage} from "../pages/cards500-js-scroll/cards500-js-scroll";
 import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards500-virtual-scroll";
+import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-scroll";
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards5
     Cards300Page,
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
+    CardsInfiniScrollPage,
     Div200Page
   ],
   imports: [
@@ -50,6 +52,7 @@ import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards5
     Cards300Page,
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
+    CardsInfiniScrollPage,
     Div200Page
   ],
   providers: [
