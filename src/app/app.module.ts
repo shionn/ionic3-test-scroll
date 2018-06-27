@@ -14,6 +14,7 @@ import {Cards100Page} from "../pages/cards100/cards100";
 import {Cards200Page} from "../pages/cards200/cards200";
 import {Cards300Page} from "../pages/cards300/cards300";
 import {Div200Page} from "../pages/div200/div200";
+import {Cards200JsScrollPage} from "../pages/cards200-js-scroll/cards200-js-scroll";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {Div200Page} from "../pages/div200/div200";
     Cards50Page,
     Cards100Page,
     Cards200Page,
-   Cards300Page,
+    Cards200JsScrollPage,
+    Cards300Page,
     Div200Page
   ],
   imports: [
@@ -40,6 +42,7 @@ import {Div200Page} from "../pages/div200/div200";
     Cards50Page,
     Cards100Page,
     Cards200Page,
+    Cards200JsScrollPage,
     Cards300Page,
     Div200Page
   ],
