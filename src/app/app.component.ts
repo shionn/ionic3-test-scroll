@@ -38,7 +38,7 @@ export class MyApp {
       { title: 'List', component: ListPage },
       { title: "Cards 50", component: Cards50Page},
       { title: "Cards 100", component: Cards100Page},
-      { title: "Cards 200 select opacity", component: Cards200Page},
+      { title: "Cards 200 div zindex", component: Cards200Page},
       { title: "Cards 200 JsScroll", component: Cards200JsScrollPage},
       { title: "Cards 300 select absolute", component: Cards300Page},
       { title: "Cards 500", component: CardsPage},
