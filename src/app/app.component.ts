@@ -40,7 +40,7 @@ export class MyApp {
       { title: "Cards 100", component: Cards100Page},
       { title: "Cards 200 select opacity", component: Cards200Page},
       { title: "Cards 200 JsScroll", component: Cards200JsScrollPage},
-      { title: "Cards 300 input hidden", component: Cards300Page},
+      { title: "Cards 300 select absolute", component: Cards300Page},
       { title: "Cards 500", component: CardsPage},
       { title: "Cards 500 JsScroll", component: Cards500JsScrollPage},
       { title: "Cards 500 VirtualScroll", component: Cards500VirtualScrollPage},
