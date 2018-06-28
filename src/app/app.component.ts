@@ -48,7 +48,7 @@ export class MyApp {
       { title: "Cards InfiniScroll", component: CardsInfiniScrollPage},
       { title: "Div 200", component: Div200Page},
       { title: "News 200 nav bar select", component: News200Page},
-      { title: "News 500 display none", component: News500Page},
+      { title: "News 500 select end", component: News500Page},
     ];
 
   }
