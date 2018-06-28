@@ -1,0 +1,27 @@
+cat-news {
+  img, cat-icon {
+    max-width: 30px;
+    max-height: 20px;
+    margin-right: 5px;
+    display: inline;
+  }
+  .news-info {
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    color: #919191;
+
+    ion-col {
+      padding-bottom: 0;
+    }
+
+    .news-date {
+      color: #ed7150;
+      padding-left: 0;
+    }
+
+    .news-source {
+      text-align: right;
+      padding-right: 0;
+    }
+  }
+}

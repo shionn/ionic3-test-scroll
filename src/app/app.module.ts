@@ -18,6 +18,8 @@ import {Cards200JsScrollPage} from "../pages/cards200-js-scroll/cards200-js-scro
 import {Cards500JsScrollPage} from "../pages/cards500-js-scroll/cards500-js-scroll";
 import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards500-virtual-scroll";
 import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-scroll";
+import {News200Page} from "../pages/news200/news200";
+import {ComponentsModule} from "../components/components.module";
 
 @NgModule({
   declarations: [
@@ -33,11 +35,13 @@ import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-s
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
     CardsInfiniScrollPage,
-    Div200Page
+    Div200Page,
+    News200Page
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
+    ComponentsModule,
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -53,7 +57,8 @@ import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-s
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
     CardsInfiniScrollPage,
-    Div200Page
+    Div200Page,
+    News200Page
   ],
   providers: [
     StatusBar,

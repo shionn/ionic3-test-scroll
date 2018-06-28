@@ -15,6 +15,7 @@ import {Cards200JsScrollPage} from "../pages/cards200-js-scroll/cards200-js-scro
 import {Cards500JsScrollPage} from "../pages/cards500-js-scroll/cards500-js-scroll";
 import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards500-virtual-scroll";
 import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-scroll";
+import {News200Page} from "../pages/news200/news200";
 
 @Component({
   templateUrl: 'app.html'
@@ -42,7 +43,8 @@ export class MyApp {
       { title: "Cards 500 JsScroll", component: Cards500JsScrollPage},
       { title: "Cards 500 VirtualScroll", component: Cards500VirtualScrollPage},
       { title: "Cards InfiniScroll", component: CardsInfiniScrollPage},
-      { title: "Div 200", component: Div200Page}
+      { title: "Div 200", component: Div200Page},
+      { title: "News 200", component: News200Page}
     ];
 
   }
