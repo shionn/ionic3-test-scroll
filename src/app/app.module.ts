@@ -20,6 +20,8 @@ import {Cards500VirtualScrollPage} from "../pages/cards500-virtual-scroll/cards5
 import {CardsInfiniScrollPage} from "../pages/cards-infini-scroll/cards-infini-scroll";
 import {News200Page} from "../pages/news200/news200";
 import {ComponentsModule} from "../components/components.module";
+import {News500Page} from "../pages/news500/news500";
+import {Cards500NavBarPage} from "../pages/cards500-nav-bar/cards500-nav-bar";
 
 @NgModule({
   declarations: [
@@ -34,9 +36,11 @@ import {ComponentsModule} from "../components/components.module";
     Cards300Page,
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
+    Cards500NavBarPage,
     CardsInfiniScrollPage,
     Div200Page,
-    News200Page
+    News200Page,
+    News500Page,
   ],
   imports: [
     BrowserModule,
@@ -56,9 +60,11 @@ import {ComponentsModule} from "../components/components.module";
     Cards300Page,
     Cards500JsScrollPage,
     Cards500VirtualScrollPage,
+    Cards500NavBarPage,
     CardsInfiniScrollPage,
     Div200Page,
-    News200Page
+    News200Page,
+    News500Page,
   ],
   providers: [
     StatusBar,

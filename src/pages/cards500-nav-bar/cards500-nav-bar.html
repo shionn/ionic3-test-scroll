@@ -1,5 +1,5 @@
 <!--
-  Generated template for the News200Page page.
+  Generated template for the Cards500NavBarPage page.
 
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
@@ -10,7 +10,7 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>news200</ion-title>
+    <ion-title>cards500NavBar</ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -33,5 +33,9 @@
       </ion-col>
     </ion-row>
   </ion-navbar>
-  <cat-news *ngFor="let aNews of news" [aNews]="aNews"></cat-news>
+  <ion-card *ngFor="let card of cards" >
+    <ion-card-header>{{card.name}}</ion-card-header>
+    <ion-card-content>{{card.content}}</ion-card-content>
+  </ion-card>
+
 </ion-content>
