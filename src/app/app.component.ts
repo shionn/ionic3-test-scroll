@@ -44,10 +44,10 @@ export class MyApp {
       { title: "Cards 500", component: CardsPage},
       { title: "Cards 500 JsScroll", component: Cards500JsScrollPage},
       { title: "Cards 500 VirtualScroll", component: Cards500VirtualScrollPage},
-      { title: "Cards 500 div flex", component: Cards500NavBarPage},
+      { title: "Cards 500 select", component: Cards500NavBarPage},
       { title: "Cards InfiniScroll", component: CardsInfiniScrollPage},
       { title: "Div 200", component: Div200Page},
-      { title: "News 200 no select", component: News200Page},
+      { title: "News 200 nav bar select", component: News200Page},
       { title: "News 500 display none", component: News500Page},
     ];
 
