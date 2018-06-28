@@ -16,6 +16,22 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <ion-navbar>
+    <ion-row>
+      <ion-col col-6>
+        <select>
+          <option>Opt1</option>
+          <option>Opt2</option>
+        </select>
+      </ion-col>
+      <ion-col col-6>
+        <select>
+          <option>Opt1</option>
+          <option>Opt2</option>
+        </select>
+      </ion-col>
+    </ion-row>
+  </ion-navbar>
   <cat-news *ngFor="let aNews of news" [aNews]="aNews"></cat-news>
 </ion-content>
